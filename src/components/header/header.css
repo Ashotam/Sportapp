@@ -1,0 +1,76 @@
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 10px;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+}
+
+.logo .img {
+    width: 50px;
+    height: 50px;
+    background-image: url("../../assets/images/logo.jpg");
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.logoName {
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Fascinate Inline', cursive;
+}
+
+.loginPart {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login, .registration {
+    height: 50px;
+    border: 1px solid #282828;
+    display: flex;
+    align-items: center;
+    border-radius: 30%;
+    background-color: #888888;
+    box-shadow: 3px 3px #888888;
+}
+
+
+.loginPart div:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.openedLogin {
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.openedLogin .login {
+    width: 45px;
+}
+
+.openedLogin .login {
+    cursor: pointer;
+}
+
+.header_inputs {
+    display: flex;
+}
+
+.header_inputs input {
+    width: 150px;
+    height: 30px;
+}
